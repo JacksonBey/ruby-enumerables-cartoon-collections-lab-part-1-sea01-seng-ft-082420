@@ -5,6 +5,6 @@ end
 
 
 def list_dwarves(array)
-array.each_with_index do | person, index |
-  puts "#{index} . #{person}"
+  array.each_with_index do | person, index |
+    puts "#{index} . #{person}"
 end
