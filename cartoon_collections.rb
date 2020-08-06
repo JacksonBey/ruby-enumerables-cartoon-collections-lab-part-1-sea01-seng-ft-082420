@@ -16,3 +16,4 @@ array.each_with_index do |person, index|
   #
   # Print a numbered list of each element
 end
+
