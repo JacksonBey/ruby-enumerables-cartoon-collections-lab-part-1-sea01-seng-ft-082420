@@ -10,8 +10,8 @@ end
 
 def list_dwarves(array)
 ind=0
-array.each_with_index do |person, (index+1)|
-  puts "#{index}. #{person}"
+array.each_with_index do |person, index|
+  puts "#{index+1}. #{person}"
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
