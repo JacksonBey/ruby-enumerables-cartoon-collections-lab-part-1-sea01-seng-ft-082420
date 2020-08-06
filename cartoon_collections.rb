@@ -6,9 +6,8 @@ end
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
-end
 
 def list_dwarves(array)
 array.each_with_index do | person, index |
-  puts "yuh"
+  puts "#{index+1} . #{person}"
 end
